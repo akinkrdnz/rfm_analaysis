@@ -4,7 +4,7 @@ import seaborn as sns
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
-df=pd.read_excel("online_retail_II.xlsx",sheet_name="Year 2010-2011")
+df=pd.read_excel("akin.xlsx")
 dff=df.copy()
 # 2. Veri setinin betimsel istatistiklerini inceleyiniz.
 dff.head()
